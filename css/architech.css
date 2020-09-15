@@ -1,0 +1,151 @@
+*body{box-sizing: border-box;}
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3,   h6 {
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 24px;
+  }
+ h4{
+ 	font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 18px;
+  color: gray;
+ } 
+  .ul {
+  list-style-type: none;
+  padding: 30px 15px;
+  overflow: hidden;
+  background-color: white;
+
+ 
+}
+.li {
+ float: right;
+}
+.li a {
+  
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  letter-spacing: 5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+.li a:hover {
+  background-color: #f1f1f1;
+}
+.container{
+	max-width: 100%;
+	height:auto;
+	position: relative;
+	font-family: Arial;
+}
+.text-block {
+  position: absolute;
+  top: 50%;
+  left:45%;
+  transform: translate(-50%, -50%);
+
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  color: white;
+  font-size: 25px;
+  transform: translate(-50%, -50%);
+}
+.text{
+	
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
+}
+.row{
+	padding-top: 20px;
+	display: flex;
+	position: relative;
+	font-family: Arial;
+
+}
+.column{
+	
+	 flex: 33.33%;
+     padding: 5px;
+   text-align:left;
+    
+
+}
+.text-block2{
+	position: absolute;
+	top: 20px;
+	left: 4px;
+	background-color: black;
+    color: white;
+    padding: 6px 12px!important;
+}
+.row1{
+	padding-top: 30px;
+	display: flex;
+	position: relative;
+	font-family: Arial;
+
+}
+.column1
+{
+	flex: 33.33%;
+     padding: 10px;
+     margin-left: 10px;
+     margin-right: 10px;
+ }
+ .button{
+ 	display: block;
+ 	width: 100%;
+ border: none;
+ color: #000;
+ background-color: #f1f1f1;
+ padding: 8px 16px;
+ vertical-align: middle;
+ overflow: hidden;
+ text-decoration: none;
+ text-align: center;
+ cursor: pointer;
+ white-space: nowrap;
+
+
+ }
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  color: white;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+ 
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media(min-width: 768px){
+.container {
+  border-radius: 5px;
+  margin-right: 25px;
+  margin-left: 10px;
+}
+}
+.map{
+	padding-top: 40px;
+	max-width: 100%;
+	height: auto;
+}
